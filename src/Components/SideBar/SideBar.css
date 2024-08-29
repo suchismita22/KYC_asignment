@@ -1,0 +1,35 @@
+.sidebar-menu {
+    background-color: #001529;
+    color: white;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: flex-start !important;
+    align-items: center !important;
+}
+
+.sidebar-menu .ant-menu-item{
+    width: 95%;
+}
+
+.sidebar-item-active{
+    background-color: white !important;
+    color: #001529 !important;
+}
+
+.sidebar-menu .ant-menu-item-active{
+    background-color: #001529;
+    color: white;
+}
+
+.sidebar-menu .ant-menu-item-selected{
+    background-color: #001529;
+    color: white;
+}
+
+.sidebar-menu .ant-menu-title-content {
+    font-family: "Poppins";
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
